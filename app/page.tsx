@@ -16,7 +16,7 @@ export default function Home() {
       </div>
     </div>
     <div className="w-full md:px-[21%] px-4 flex-col justify-between items-center absolute top-30">
-      <p className="text-xl font-extralight font-sans text-start py-15" >
+      <p className="text-xl font-extralight font-sans text-start py-15 md:flex hidden" >
         See our finest project Now !!
       </p>
       <h1 className="md:text-9xl text-6xl font-extralight font-sans text-start py-7">
