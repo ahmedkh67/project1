@@ -117,7 +117,7 @@ export default function Home() {
 
     </div>
 
-    <div className="flex w-14 h-14 bg-black rounded-xl fixed bottom-10 right-10 z-10">
+    <div className="flex w-14 h-14 bg-black opacity-20 rounded-xl fixed bottom-4 right-4 z-10">
 
     </div>
 
