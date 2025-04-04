@@ -1,35 +1,51 @@
+"use client"
+
 import Image from "next/image";
+import Arrow from '@/public/Arrow.svg'
+import Loadingpage from "@/Components/Loadingpage";
+import { motion } from "motion/react";
+import { easeOut } from "motion";
 
 export default function Home() {
   return (
     <>
     <div className="flex flex-col w-full h-[90vh] md:h-screen justify-between overflow-hidden ">
-      <div className="flex md:justify-end justify-end items-end overflow-hidden">
+      <motion.div
+      initial={{translateX: 30}} animate={{translateX: 0}} transition={{duration: 1.5, ease: easeOut, delay: 1.1}}
+      className="flex md:justify-end justify-end items-end overflow-hidden">
         <Image src={'/image2.webp'} alt="m" width={400} height={400} className="opacity-60 w-80 md:w-180  translate-x-10 -translate-y-20 md:-translate-y-5 "/>
         <Image src={'/flower1.webp'} alt="m" width={250} height={300} className="absolute w-40 md:w-74 -translate-y-10 md:translate-x-20 " />
 
-      </div>
-      <div className="flex md:justify-start justify-end md:items-start items-end">
+      </motion.div>
+      <motion.div
+      initial={{translateX: -30}} animate={{translateX: 0}} transition={{duration: 1.5, ease: easeOut, delay: 1.1}}
+      className="flex md:justify-start justify-end md:items-start items-end">
         <Image src={'/image1.webp'} alt="m" width={750} height={600} className="opacity-60 w-40 md:w-96 "  />
         <Image src={'/flower2.webp'} alt="m" width={370} height={300} className="absolute  w-25 md:w-60 " />
 
-      </div>
+      </motion.div>
     </div>
     <div className="w-full md:px-[21%] px-4 flex-col justify-between items-center absolute top-30">
-      <p className="text-xl font-extralight font-sans text-start py-15 md:opacity-100 opacity-0" >
-        See our finest project Now !!
-      </p>
-      <h1 className="md:text-9xl text-6xl font-extralight font-sans text-start py-7">
-      Make your work stand out
-      </h1>
-      <div className="flex justify-start items-center my-20">
-        <p className="text-xl font-extralight font-sans text-start " >
+      <motion.div initial={{translateY: 30}} animate={{translateY: 0}} transition={{duration: 1, ease: easeOut, delay: 1.1}} >
+        <p className="text-2xl font-light font-sans text-start py-15 md:opacity-100 opacity-0" >
+          See our finest project Now !!
+        </p>
+      </motion.div>
+      <motion.div initial={{translateY: 30}} animate={{translateY: 0}} transition={{duration: 1.5, ease: easeOut, delay: 1.1}} >
+        <h1 className="md:text-9xl text-6xl font-extralight font-sans text-start py-7">
+        Make your work stand out
+        </h1>
+      </motion.div>
+      <motion.div  initial={{translateY: 30}} animate={{translateY: 0}} transition={{duration: 1.7, ease: easeOut, delay: 1.2}}
+       className="flex justify-start items-center my-20">
+        <p className="text-2xl font-light font-sans text-start " >
           View Objects
         </p>
-        <div className="flex w-7 h-7 bg-black rounded-full mx-3">
-
-        </div>
-      </div>
+        <motion.div initial={{rotate: 0}} animate={{rotate: 45}} transition={{duration: 1.4, ease: easeOut, delay: 1}} 
+          className="flex w-7 h-7 rounded-full mx-3">
+          <Image src={Arrow} width={25} height={30} alt="arrow" className="" />
+        </motion.div>
+      </motion.div>
       
     </div>
     <div className="flex flex-col w-full justify-center items-center p-4 md:mb-40 md:mb-10 ">
@@ -117,9 +133,12 @@ export default function Home() {
 
     </div>
 
-    <div className="flex w-14 h-14 bg-black opacity-20 rounded-xl fixed bottom-4 right-4 z-10">
-
+    <div className="flex justify-center items-center w-14 h-14 bg-[#17171726] rounded-xl fixed bottom-4 right-4 md:right-20 md:bottom-10 z-10">
+      <Image src={Arrow} width={30} height={30} alt="arrow" className="-rotate-90" />
     </div>
+      
+      
+       <Loadingpage />   
 
     
 

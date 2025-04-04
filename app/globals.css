@@ -32,3 +32,32 @@ p {
   color: var(--foreground);
 }
 
+
+.animatedown {
+  animation: animatedown 1s ease-out ;
+  transition: 0.8s;
+}
+
+@keyframes animatedown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(80px); 
+    visibility: hidden;
+  }
+}
+.animateup {
+  transition: 0.8s ;
+  animation: animateup 1s ease-out ;
+  animation-delay: 1s;
+}
+@keyframes animateup {
+  0%{ 
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-900px);
+  }
+}
+
