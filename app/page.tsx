@@ -21,16 +21,18 @@ export default function Home() {
     <MainProduct src={MainProductt.src} 
     Title={MainProductt.Dis} />  
     <div className="w-full md:px-[21%] px-5 flex-col justify-between items-center md:pt-20 pb-12 ">
-      <motion.h1 initial={{opacity: 0 , translateY: -30}} whileInView={{opacity: 100, translateY: 0}} 
-      viewport={{once: true}} transition={{duration: 0.4 , delay: 0.3}} className="md:text-7xl text-4xl font-extralight 
+      <motion.h1 initial={{opacity: 0 , translateY: 0}} whileInView={{opacity: 100, translateY: 0}} 
+      viewport={{once: true}} transition={{duration: 0.4 , delay: 0.3}} className="md:text-7xl text-5xl font-extralight 
       font-sans text-start py-7">
         {MiddleText}
       </motion.h1>
     </div> 
     <ProductsImgs /> 
     <Slidedlogo />
+{/*
     <Authority Title={Authorityy.Title} src={Authorityy.src}
      Dis={Authorityy.Dis} />
+*/}
     <PurchaseComp Title={Purchasingquote} link={""} />
     <FooterObjects />   
     <Loadingpage /> 
