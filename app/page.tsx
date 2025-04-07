@@ -29,10 +29,12 @@ export default function Home() {
     </div> 
     <ProductsImgs /> 
     <Slidedlogo />
-{/*
-    <Authority Title={Authorityy.Title} src={Authorityy.src}
-     Dis={Authorityy.Dis} />
-*/}
+    <div className="hidden">
+      <Authority Title={Authorityy.Title} src={Authorityy.src}
+      Dis={Authorityy.Dis} />
+
+    </div>
+    
     <PurchaseComp Title={Purchasingquote} link={""} />
     <FooterObjects />   
     <Loadingpage /> 
