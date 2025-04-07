@@ -16,7 +16,6 @@ type NavbarParams = {
     Name: string , 
     Link: string | URL , 
     src: string | any, 
-
 }
 
 const Navbar = () => {
@@ -36,15 +35,18 @@ const Navbar = () => {
                         </p>
                     </div>
                     <div className="flex items-center fixed md:static bottom-4 left-3">
-                        <div className="flex justify-center back items-center w-12 h-12 rounded-xl bg-[#17171746] mx-1 ">
+                        <div className="flex justify-center back items-center w-12 h-12 
+                        rounded-xl bg-[#17171746] mx-1 ">
                             <Image src={instaicon} width={30} height={30} alt="insta icon" />
                         </div>
                         
-                        <div className="flex justify-center back items-center w-12 h-12 rounded-xl bg-[#17171746] mx-1 ">
+                        <div className="flex justify-center back items-center w-12 h-12 
+                        rounded-xl bg-[#17171746] mx-1 ">
                             <Image src={gmailicon} width={30} height={30} alt="insta icon" />
                         </div>
                         
-                        <div className="flex justify-center back items-center w-12 h-12 rounded-xl bg-[#17171746] mx-1 ">
+                        <div className="flex justify-center back items-center w-12 h-12 
+                        rounded-xl bg-[#17171746] mx-1 ">
                             <Image src={youtubeicon} width={30} height={30} alt="insta icon" />
                         </div>
                         
@@ -68,11 +70,10 @@ const Navbar = () => {
             </motion.div>
         </div>
 
-        <Link className="flex back justify-center items-center w-14 h-14 bg-[#17171726] rounded-xl fixed bottom-4 right-4 md:right-20 md:bottom-10 z-10" href={"#headpage"}>
+        <Link className="flex back justify-center items-center w-14 h-14 bg-[#17171726] rounded-xl 
+        fixed bottom-4 right-4 md:right-20 md:bottom-10 z-10" href={"#headpage"}>
             <Image src={Arrow} width={30} height={30} alt="arrow" className="-rotate-90" />
         </Link>
-      
-        
         </>
     )
 }

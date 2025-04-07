@@ -12,9 +12,9 @@ function PurchaseComp ({Title}: PurchaseCompparams){
     <>
     
     <div className="flex justify-center items-center mt-20 mb-15 px-4">
-        <p className="text-2xl font-light font-sans text-center md:w-1/4 " >
-        {Title}
-        </p>
+      <p className="text-2xl font-light font-sans text-center md:w-1/4 " >
+      {Title}
+      </p>
         
     </div>
 
@@ -25,7 +25,6 @@ function PurchaseComp ({Title}: PurchaseCompparams){
         </p>
       </button>
     </div>
-
     </>
   )
 }
