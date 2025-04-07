@@ -10,19 +10,6 @@ import { Authorityy, Heroo, MainProductt, MiddleText, Purchasingquote } from "@/
 
 export default function Home() {
 
-  const [OffsetY, setOffsetY] = useState(0)
-
-  const handlescroll = () => setOffsetY(window.pageYOffset) ;
-
-  useEffect(() => {
-    window.addEventListener("scroll", handlescroll) ;
-    
-    return () => window.removeEventListener("scroll", handlescroll) ;
-
-  }, []) 
-
-
-
   return (
     <>
     <div className="flex flex-col w-full h-[90vh] md:h-screen justify-between overflow-hidden ">
