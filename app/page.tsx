@@ -1,13 +1,8 @@
 "use client"
 
-import Image from "next/image";
-import Arrow from '@/public/Arrow.svg'
 import Loadingpage from "@/Components/Loadingpage";
 import { motion } from "motion/react";
-import { easeInOut, easeOut } from "motion";
 import { useEffect, useState } from "react";
-import icon from '@/public/Icon.svg'
-import Link from "next/link";
 import { Authority, FooterObjects, Hero, MainProduct, Objects, ProductsImgs, PurchaseComp, Slidedlogo } from "@/Components";
 import { Authorityy, Heroo, MainProductt, MiddleText, Purchasingquote } from "@/Constants";
 
