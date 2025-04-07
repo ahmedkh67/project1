@@ -13,13 +13,10 @@ const ProductsImgs = () => {
   return (
     <>
     <div className="flex w-full flex-col mb-0 mt-20">
-      <h1 className="w-full text-center md:text-6xl text-5xl sticky md:top-10 top-[20%] mb-10">
-        Our Products
-      </h1>
       {ProductImages.map((item) => (
           <motion.div initial={{scale: 0.95}} whileHover={{scale: 1}} 
           transition={{duration: 1.1, ease: easeInOut}} className="flex flex-col w-full justify-center items-center
-          p-4 md:mb-10 mb-[60%] md:mt-10 sticky md:top-25 top-[40%] ">
+          p-4 md:mb-10 mb-[60%] md:mt-10 sticky md:top-25 top-[30%] ">
             <Image src={item.src} width={800} height={800} alt="im" 
             className="rounded-3xl mx-3 mb-3 md:translate-y-0 -translate-y-10 md:h-[500px] h-[400px] " />         
         </motion.div>
