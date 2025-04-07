@@ -1,39 +1,55 @@
-export const Hero = {
-    Header: "", 
-    Title: "", 
-    NavigateTitle: "",
+export const Name = "Fonat"
+
+export const Objects = {
+    object1: "/image2.webp",
+    object2: "/flower1.webp",
+    object3: "/image1.webp",
+    object4: "/flower2.webp",
+}
+
+
+export const Heroo = {
+    Header: " See our finest project Now !! ", 
+    Title: " Make your work stand out ", 
+    NavigateTitle: " Our Product ",
 }
 
 export const SocialIcons = [
-    {src: "  "}, 
-    {src: "  "}, 
-    {src: "  "}, 
+    {src: "/insta.svg"}, 
+    {src: "/gmail.svg"}, 
+    {src: "/youtube.svg"}, 
 ]
 
-export const MainProduct = { 
-    src: "", 
-    Dis: "",
+export const MainProductt = { 
+    src: "/object1.webp", 
+    Dis: " Object 3 ",
 }
 
-export const MiddleText = "  " 
+export const MiddleText = " Make your work stand out  Make your work fjiewjfkmew ifewfiewjfmk ewf.ewf fewfew ur work stand out  " 
 
 export const ProductImages = [
     {
-        src: "",
+        src: "/object1.webp",
         Dis: ""
 
     }, 
     {
-        src: "",
-        Dis: ""
+        src: "/object1.webp",
+        Dis: " "
 
     }, 
     {
-        src: "",
+        src: "/object1.webp",
         Dis: ""
 
     }, 
 ]
 
-export const Purchasingquote = " "
+export const Authorityy = {
+    Title: " Authority " ,
+    src: "/persona.webp", 
+    Dis: " Make your work stand out  Make your work fjiewjfkmew ifewfiewjfmk ewf.ewf fewfew ur work stand out "
+}
+
+export const Purchasingquote = " Show your creativity with Blayden unique portfolio template - and get noticed today! "
 

@@ -9,6 +9,15 @@ import { easeOut } from "motion";
 import instaicon from '@/public/insta.svg'
 import gmailicon from '@/public/gmail.svg'
 import youtubeicon from '@/public/youtube.svg'
+import Arrow from '@/public/Arrow.svg'
+import Link from "next/link";
+
+type NavbarParams = {
+    Name: string , 
+    Link: string | URL , 
+    src: string | any, 
+
+}
 
 const Navbar = () => {
     return (
@@ -16,7 +25,7 @@ const Navbar = () => {
         <div className="flex w-full justify-center md:mx-0">
             <motion.div
             initial={{opacity: 0}} animate={{opacity: 1}} 
-            transition={{duration: 0.7, ease:easeOut ,delay: 1.6}}
+            transition={{duration: 0.7, ease:easeOut ,delay: 1.7}}
             className="flex h-17 w-[90%]
             rounded-2xl my-5 fixed z-30 justify-between items-center    ">
                 <div className="flex bg-[#17171746 h-full  rounded-xl items-center">
@@ -59,6 +68,10 @@ const Navbar = () => {
             </motion.div>
         </div>
 
+        <Link className="flex back justify-center items-center w-14 h-14 bg-[#17171726] rounded-xl fixed bottom-4 right-4 md:right-20 md:bottom-10 z-10" href={"#headpage"}>
+            <Image src={Arrow} width={30} height={30} alt="arrow" className="-rotate-90" />
+        </Link>
+      
         
         </>
     )

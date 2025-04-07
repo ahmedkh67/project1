@@ -6,11 +6,6 @@
 }
 
 
-$bg-color:var(--background) ;
-$text-color: var(--foreground);
-
-
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -32,6 +27,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+}
+
+.sti {
+  position:sticky;
 }
 
 
@@ -75,4 +74,39 @@ p {
 
 .back { 
   backdrop-filter: blur(10px);
+}
+
+@layer main {
+  .Scrollitem {
+    @apply flex h-50 justify-center items-center absolute left-[100%] mx-1;
+  }
+}
+
+@keyframes scrolling {
+  to {
+    left: -50% ;
+  }
+}
+
+.Scrollitem {
+  animation: scrolling 5s linear infinite;
+}
+
+.Scrollitem1 {
+  animation-delay: calc(5s / 5 * (5 - 1) * -1);
+}
+
+.Scrollitem2 {
+  animation-delay: calc(5s / 5 * (5 - 2) * -1);
+}
+
+.Scrollitem3 {
+  animation-delay: calc(5s / 5 * (5 - 3) * -1);
+}
+
+.Scrollitem4 {
+  animation-delay: calc(5s / 5 * (5 - 4) * -1);
+}
+.Scrollitem5 {
+  animation-delay: calc(5s / 5 * (5 - 5) * -1);
 }
