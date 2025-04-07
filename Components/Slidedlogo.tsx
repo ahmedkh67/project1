@@ -1,6 +1,7 @@
 "use client"
 
-
+import { easeOut } from "motion"
+import { motion } from "motion/react"
 
 
 const Slidedlogo = () => {
@@ -30,14 +31,15 @@ const Slidedlogo = () => {
     </div>
     */ }
 
-    <div className="flex w-full relative overflow-hidden bg-amber-400 h-50 ">
+    <motion.div initial={{height: 0}} whileInView={{height: 200}} viewport={{once: true}}
+    transition={{duration: 0.7 , ease: easeOut}} className="flex w-full relative overflow-hidden bg-amber-400 md:m-0 -mt-[40%]">
 
       <h1 className="Scrollitem text-8xl text-nowrap">
         fonat fonat fonat fonat fonat fonat fonat  fonat fonat fonat fonat fonat fonat fonat
       </h1>
 
       
-    </div>
+    </motion.div>
 
     </>
   )

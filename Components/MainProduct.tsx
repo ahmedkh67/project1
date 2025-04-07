@@ -18,11 +18,7 @@ function MainProduct ({src, Title}: MainProductParams) {
     transition={{duration: 1.1, ease: easeInOut}} className="flex flex-col w-full justify-center items-center 
     p-4 md:mb-10 md:mt-10">
       <Image src={src} width={800} height={800} alt="im" 
-      className="rounded-3xl mx-3 mb-3  md:translate-y-0 -translate-y-10" />
-    
-      <p className='text-center w-full text-2xl' >
-        {Title}
-      </p>
+      className="rounded-3xl mx-3 mb-3  md:translate-y-0 -translate-y-0" />
           
     </motion.div>
   )
