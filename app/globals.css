@@ -110,3 +110,21 @@ p {
 .Scrollitem5 {
   animation-delay: calc(5s / 5 * (5 - 5) * -1);
 }
+
+.Objects {
+  filter: drop-shadow(10px 10px 10px var(--foreground));
+}
+
+.blurtext {
+animation: blurring 5s ease-out 1;
+}
+
+@keyframes blurring {
+  0% { 
+    filter: blur(12px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+

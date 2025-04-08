@@ -32,10 +32,11 @@ const Slidedlogo = () => {
     */ }
 
     <motion.div initial={{height: 0}} whileInView={{height: 200}} viewport={{once: true}}
-    transition={{duration: 0.8, delay: 0.2 , ease: easeOut}} className="flex w-full relative overflow-hidden bg-amber-400 md:mt-40 mb-10 -mt-[40%]">
+    transition={{duration: 0.8, delay: 0.2 , ease: easeOut}} className="flex w-full relative overflow-hidden
+     bg-amber-4000 md:mt-20 mb-10 -mt-[40%] ">
 
       <h1 className="Scrollitem text-8xl text-nowrap text-white ">
-        fonat fonat fonat fonat fonat fonat fonat  fonat fonat fonat fonat fonat fonat fonat
+        @Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat
       </h1>
 
       

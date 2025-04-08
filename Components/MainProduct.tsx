@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import { motion } from "motion/react";
-import { easeInOut, easeOut,} from "motion";
+import { easeOut,} from "motion";
 
 
 type MainProductParams = {

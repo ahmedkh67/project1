@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "motion/react";
-import { easeInOut, easeOut} from "motion";
+import { easeOut} from "motion";
 import { ProductImages } from "@/Constants";
 
 type ProductsImgsparams = {
