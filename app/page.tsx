@@ -5,7 +5,6 @@ import { Authority, FooterObjects, Hero, MainProduct,
         Objects, ProductsImgs, PurchaseComp, Slidedlogo } from "@/Components";
 import { Authorityy, Heroo, MainProductt,
         Purchasingquote } from "@/Constants";
-import useMousePosition from "@/utils/useMousePosition";
 import Paragraph from "@/Components/MiddleParagraph";
 
 
