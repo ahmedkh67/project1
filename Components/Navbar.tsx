@@ -23,7 +23,7 @@ const Navbar = () => {
         <>
         <div className="flex w-full justify-center md:mx-0">
             <motion.div
-            initial={{opacity: 0}} animate={{opacity: 1}} 
+            initial={{opacity: 1}} animate={{opacity: 1}} 
             transition={{duration: 0.7, ease:easeOut ,delay: 1.7}}
             className="flex h-17 w-[90%]
             rounded-2xl my-5 fixed z-30 justify-between items-center    ">
