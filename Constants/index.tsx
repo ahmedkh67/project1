@@ -51,5 +51,5 @@ export const Authorityy = {
     Dis: " Make your work stand out  Make your work fjiewjfkmew ifewfiewjfmk ewf.ewf fewfew ur work stand out "
 }
 
-export const Purchasingquote = " Show your creativity with Blayden unique portfolio template - and get noticed today! "
+export const Purchasingquote = " Show your creativity with Blayden unique products - and get noticed today! "
 
