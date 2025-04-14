@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #b6bdc5;
-  --foreground: #171717;
+  --background: #171717;
+  --foreground: #b6bdc5;
 }
 
 
@@ -111,7 +111,7 @@ p {
   animation-delay: calc(5s / 5 * (5 - 5) * -1);
 }
 
-.Objects {
+.Objectss {
   filter: drop-shadow(10px 10px 10px var(--foreground));
 }
 
