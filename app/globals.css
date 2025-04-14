@@ -116,7 +116,7 @@ p {
 }
 
 .blurtext {
-animation: blurring 5s ease-out 1;
+animation: blurring 4s ease-out 1;
 }
 
 @keyframes blurring {
@@ -126,5 +126,14 @@ animation: blurring 5s ease-out 1;
   100% {
     filter: blur(0px);
   }
+}
+
+.mask {
+  position: absolute;
+  mask-image: url('/mask.svg');
+  background: brown;
+  mask-position: 50%;
+  mask-size: 40px;
+  mask-repeat: no-repeat;
 }
 

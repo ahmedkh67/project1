@@ -25,7 +25,7 @@ export const MainProductt = {
     Dis: " Object 3 ",
 }
 
-export const MiddleText = " Make your work stand out  Make your work fjiewjfk " 
+export const MiddleText = "Make your work stand out  Make your work fjiewjfk " 
 
 export const ProductImages = [
     {

@@ -8,12 +8,13 @@ import Slidedlogo from "./Slidedlogo";
 import Authority from "./Authority";
 import PurchaseComp from "./PurchaseComp";
 import FooterObjects from "./FooterObjects";
+import Word from "./MiddleParagraph";
 
 export {
     Navbar, Footer,Objects,
     Hero, MainProduct, ProductsImgs,
     Slidedlogo, Authority, PurchaseComp, 
-    FooterObjects, 
+    FooterObjects, Word , 
 
     
     

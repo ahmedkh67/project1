@@ -1,18 +1,23 @@
 "use client"
 
 import Loadingpage from "@/Components/Loadingpage";
-import { motion } from "motion/react";
 import { Authority, FooterObjects, Hero, MainProduct,
         Objects, ProductsImgs, PurchaseComp, Slidedlogo } from "@/Components";
-import { Authorityy, Heroo, MainProductt, MiddleText,
+import { Authorityy, Heroo, MainProductt,
         Purchasingquote } from "@/Constants";
-
+import useMousePosition from "@/utils/useMousePosition";
+import Paragraph from "@/Components/MiddleParagraph";
 
 
 export default function Home() {
 
+  const {x , y } = useMousePosition() ;
+
+
+  
   return (
     <>
+    
     <div className="flex flex-col w-full h-[90vh] md:h-screen justify-between overflow-hidden ">
       <Objects />
     </div>
@@ -20,13 +25,10 @@ export default function Home() {
      NavigateTitle={Heroo.NavigateTitle} />
     <MainProduct src={MainProductt.src} 
     Title={MainProductt.Dis} />  
-    <div className="w-full md:px-[21%] px-5 flex-col justify-between items-center md:pt-20 pb-12 ">
-      <motion.h1 initial={{opacity: 0 , translateY: 0}} whileInView={{opacity: 100, translateY: 0}} 
-      viewport={{once: true}} transition={{duration: 0.4 , delay: 0.3}} className="md:text-7xl text-5xl font-extralight 
-      font-sans text-start py-7">
-        {MiddleText}
-      </motion.h1>
-    </div> 
+    
+    <Paragraph />
+
+
     <ProductsImgs /> 
     <Slidedlogo />
     <div className="hidden">
@@ -38,6 +40,10 @@ export default function Home() {
     <PurchaseComp Title={Purchasingquote} link={""} />
     <FooterObjects />   
     <Loadingpage /> 
+    
+
+   
+    
     </>
   );
 
