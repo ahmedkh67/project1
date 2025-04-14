@@ -11,7 +11,6 @@ import Paragraph from "@/Components/MiddleParagraph";
 
 export default function Home() {
 
-  const {x , y } = useMousePosition() ;
 
 
   
