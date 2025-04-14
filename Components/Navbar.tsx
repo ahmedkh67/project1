@@ -27,7 +27,7 @@ const Navbar = () => {
             transition={{duration: 0.7, ease:easeOut ,delay: 1.7}}
             className="flex h-17 w-[90%]
             rounded-2xl my-5 fixed z-30 justify-between items-center    ">
-                <div className="flex bg-[#17171746 h-full  rounded-xl items-center">
+                <div className="flex bg-[#17171746] h-full  rounded-xl items-center">
                     <div className="flex h-full w-44 back md:mr-4 rounded-3xl justify-start items-center px-2 z-30">
                         <Image src={icon} width={40} height={10} alt="icon star" />
                         <p className="text-4xl mx-1" >

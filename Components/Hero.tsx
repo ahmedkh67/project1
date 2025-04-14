@@ -23,7 +23,7 @@ function Hero ({Title, Header, NavigateTitle}: HeroParams) {
       </motion.div>
       <motion.div initial={{translateY: 30,}} animate={{translateY: 0}}
       transition={{duration: 1.5, ease: easeOut, delay: 1.4}} >
-        <h1 className="md:text-9xl text-6xl font-extralight font-sans text-start py-7 blurtext">
+        <h1 className="md:text-9xl text-6xl font-extralight font-sans text-start py-7 blurtextt">
         {Title}
         </h1>
       </motion.div>
