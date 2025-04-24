@@ -2,6 +2,8 @@
 
 import { easeOut } from "motion"
 import { motion } from "motion/react"
+import Image from "next/image"
+import icon from '@/public/Icon.svg'
 
 
 const Slidedlogo = () => {
@@ -32,11 +34,11 @@ const Slidedlogo = () => {
     */ }
 
     <motion.div initial={{height: 0}} whileInView={{height: 200}} viewport={{once: true}}
-    transition={{duration: 0.8, delay: 0.2 , ease: easeOut}} className="flex w-full relative overflow-hidden
+    transition={{duration: 0.8, delay: 0.2}} className="flex w-full relative overflow-hidden
      bg-amber-4000 md:mt-20 mb-10 -mt-[40%] ">
 
-      <h1 className="Scrollitem text-8xl text-nowrap text-white ">
-        @Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat@Fonat
+      <h1 className="Scrollitem md:Scrollitems Scrollitems2 md:text-8xl text-6xl text-nowrap text-white ">
+        <Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat
       </h1>
 
       

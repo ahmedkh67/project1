@@ -27,9 +27,9 @@ function PurchaseComp ({Title}: PurchaseCompparams){
     <motion.div initial={{translateY: 40}} 
     whileInView={{ translateY: 0}} 
     transition={{duration: 0.6, }}
-    className="flex w-full justify-center items-center -mb-20">
-      <button className="px-11 py-7  border-1 border-[var(--foreground)] border-solid rounded-full" >
-        <p className="text-2xl font-sans text-center  " >
+    className="flex w-full justify-center items-center -mb-20 pointerr">
+      <button className="px-11 py-7  border-1 border-[var(--foreground)] border-solid rounded-full pointerr " >
+        <p className="text-2xl font-sans text-center  pointerr " >
           Purchase Now
         </p>
       </button>

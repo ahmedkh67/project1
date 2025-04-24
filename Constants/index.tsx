@@ -9,7 +9,7 @@ export const Objects = {
 
 
 export const Heroo = {
-    Header: " See our finest project Now !! ", 
+    Header: " See our finest project Nowr !! ", 
     Title: " Make your work stand out ", 
     NavigateTitle: " Our Product ",
 }
@@ -25,7 +25,7 @@ export const MainProductt = {
     Dis: " Object 3 ",
 }
 
-export const MiddleText = "Make your work stand out  Make your work fjiewjfk " 
+export const MiddleText = "Make your work stand out  Make your work fjiewjfk fgfgfg iehwrew rjew jewrkejwi rjewkrlj ewkr  " 
 
 export const ProductImages = [
     {
@@ -51,5 +51,5 @@ export const Authorityy = {
     Dis: " Make your work stand out  Make your work fjiewjfkmew ifewfiewjfmk ewf.ewf fewfew ur work stand out "
 }
 
-export const Purchasingquote = " Show your creativity with Blayden unique products - and get noticed today! "
 
+export const Purchasingquote = " Show your creativity with Blayden unique products - and get noticed today! "
