@@ -7,8 +7,8 @@ import React from 'react'
 const PurchaseDialog = () => {
 
   return (
-    <motion.div initial={{opacity: 0}} animate={{opacity: 98}} transition={{duration: 0.5, delay: 10}} className="flex w-full h-full justify-center items-center fixed top-0 left-0 bg-[var(--background)] opacity-98">
-        <div className="flex md:w-1/3 md:h-130 bg-[#2a2a2a] rounded-2xl fixed w-[93%] h-[60%] flex-col md:py-6 py-4 md:px-6 px-3 justify-between">
+    <motion.div initial={{opacity: 0, translateY: -50, visibility: 'hidden'}} animate={{opacity: 90, translateY: 0, visibility: 'visible'}} transition={{duration: 0.5, delay: 10}} className="flex w-full h-full justify-center items-center fixed top-0 left-0 bg-[#171717be] z-30">
+        <div className="flex md:w-1/3 md:h-130 bg-[#1e1e1e] rounded-2xl fixed w-[93%] h-[70%] flex-col md:py-6 py-4 md:px-6 px-3 justify-between">
 
 
             <div className="flex justify-between md:items-start items-end flex-col-reverse md:flex-row">
@@ -25,7 +25,7 @@ const PurchaseDialog = () => {
                 <input type="text" name="" id="" className='w-full h-12  text-2xl font-sans  border-b-1 border-solid my-2 ' placeholder='Name '  required/>
                 <input type="text" name="" id="" className='w-full h-12  text-2xl font-sans  border-b-1 border-solid my-2 ' placeholder='XXXX@gmail.com ' required />
                 <input type="text" name="" id="" className='w-full h-12  text-2xl font-sans  border-b-1 border-solid my-2 ' placeholder='05X XXX XXXX ' required />
-                <button className='w-3/4 h-12 rounded-3xl md:text-3xl text-2xl border-1 border-solid mt-14 md:mt-20' type="submit" >Submit </button>
+                <button className='w-3/4 h-12 rounded-2xl md:text-3xl text-2xl border-1 border-solid mt-10 md:mt-20' type="submit" >Submit </button>
             </form>
 
 

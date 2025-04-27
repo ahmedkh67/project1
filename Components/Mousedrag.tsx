@@ -7,7 +7,7 @@ export default function Drag() {
     const ref = useRef<HTMLDivElement>(null)
     const { x, y } = useFollowPointer(ref)
 
-    return <motion.div ref={ref} style={{ ...ball, x, y }} className="w-full h-full fixed top-0 left-0 cursor-default" />
+    return <motion.div ref={ref} style={{ ...ball, x, y }} className="w-full h-full fixed md:flex hidden top-0 left-0 cursor-default" />
 }
 
 const spring = { damping: 20, stiffness: 100, restDelta: 0.01 }
