@@ -9,12 +9,13 @@ import Authority from "./Authority";
 import PurchaseComp from "./PurchaseComp";
 import FooterObjects from "./FooterObjects";
 import Word from "./MiddleParagraph";
+import PurchaseDialog from "./PurchaseDialog";
 
 export {
     Navbar, Footer,Objects,
     Hero, MainProduct, ProductsImgs,
     Slidedlogo, Authority, PurchaseComp, 
-    FooterObjects, Word , 
+    FooterObjects, Word , PurchaseDialog, 
 
     
     

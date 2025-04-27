@@ -27,6 +27,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  
 }
 
 .sti {
@@ -36,9 +37,11 @@ body {
 
 h1{ 
   color: var(--foreground);
+  
 }
 p {
   color: var(--foreground);
+  
 }
 
 

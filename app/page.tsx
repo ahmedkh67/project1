@@ -2,10 +2,11 @@
 
 import Loadingpage from "@/Components/Loadingpage";
 import { Authority, FooterObjects, Hero, MainProduct,
-        Objects, ProductsImgs, PurchaseComp, Slidedlogo } from "@/Components";
+        Objects, ProductsImgs, PurchaseComp, PurchaseDialog, Slidedlogo } from "@/Components";
 import { Authorityy, Heroo, MainProductt,
         Purchasingquote } from "@/Constants";
 import Paragraph from "@/Components/MiddleParagraph";
+import Drag from "@/Components/Mousedrag";
 
 
 export default function Home() {
@@ -38,10 +39,10 @@ export default function Home() {
     <PurchaseComp Title={Purchasingquote} link={""} />
     <FooterObjects />   
     <Loadingpage /> 
+     <Drag /> 
+     <PurchaseDialog />
     
 
-   
-    
     </>
   );
 

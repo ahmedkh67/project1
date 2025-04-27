@@ -6,6 +6,7 @@ import { motion } from "motion/react";
 import { easeOut,} from "motion";
 
 
+
 type MainProductParams = {
   src: string | any, 
   Title: string, 
@@ -20,7 +21,6 @@ function MainProduct ({src, Title}: MainProductParams) {
     p-4 md:mb-10 md:mt-10">
       <Image src={src} width={900} height={800} alt="im" 
       className="rounded-3xl mx-3 mb-3  md:translate-y-0 -translate-y-0" />
-          
     </motion.div>
   )
 }

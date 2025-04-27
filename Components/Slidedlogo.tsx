@@ -1,6 +1,6 @@
 "use client"
 
-import { easeOut } from "motion"
+
 import { motion } from "motion/react"
 import Image from "next/image"
 import icon from '@/public/Icon.svg'
