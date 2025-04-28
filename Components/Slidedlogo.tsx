@@ -33,7 +33,7 @@ const Slidedlogo = () => {
     </div>
     */ }
 
-    <motion.div initial={{height: 0}} whileInView={{height: 200}} viewport={{once: true}}
+    <motion.div initial={{height: 200}} whileInView={{height: 200}} viewport={{once: true}}
     transition={{duration: 0.8, delay: 0.2}} className="flex w-full relative overflow-hidden
      bg-amber-4000 md:mt-20 mb-10 -mt-[40%] ">
 

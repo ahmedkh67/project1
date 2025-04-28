@@ -13,7 +13,7 @@ export default function Paragraph () {
 
     const { scrollYProgress } = useScroll ({
         target: element , 
-        offset: ['start 0.9', 'start 0.25']
+        offset: ['start 0.7', 'start 0.25']
     })
 
    const words = MiddleText.split(" ") ;

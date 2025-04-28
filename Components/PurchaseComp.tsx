@@ -2,6 +2,9 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+//import { useState } from 'react'
+
+
 
 type PurchaseCompparams = {
   Title: string, 
