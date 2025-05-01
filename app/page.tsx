@@ -22,10 +22,62 @@ export default function Home() {
     </div>
     <Hero Title={Heroo.Title} Header={Heroo.Header}
      NavigateTitle={Heroo.NavigateTitle} />
+
+     
+    <div className="flex w-full h-full justify-center items-center">
+  <div className="carousel">
+
+    <div className="wrapper">
+      <div className="flex wrapper-comp justify-center items-center  ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        
+          
+        
+      </div>
+    </div>
+  </div>
+</div>
+
     <MainProduct src={MainProductt.src} 
     Title={MainProductt.Dis} />  
     
     <Paragraph />
+
+
 
 
     <ProductsImgs /> 

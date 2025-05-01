@@ -88,15 +88,15 @@ p {
     @apply overflow-hidden w-[1000px] h-full ;
   }
   .wrapper {
-    @apply grid h-full w-full  ; 
+    @apply grid h-full w-full mb-10  ; 
     grid-auto-columns: 350px ;
     grid-auto-flow: column ;
-    animation: slider 7s linear infinite ;
+    animation: slider 15s linear infinite ;
    
   }
 
   .wrapper-comp {
-    @apply w-[300px] h-[350px] rounded-2xl bg-amber-200 ; 
+    @apply w-[300px] h-[100px] rounded-2xl border-3 border-solid  ; 
   }
 
   .carousel2 {
@@ -106,7 +106,7 @@ p {
     @apply grid h-full w-full  ; 
     grid-auto-columns: 350px ;
     grid-auto-flow: column ;
-    animation: slider2 7s linear infinite ;
+    animation: slider2 15s linear infinite ;
    
   }
 
