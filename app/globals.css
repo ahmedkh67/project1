@@ -83,6 +83,49 @@ p {
   .Scrollitem {
     @apply flex h-50 justify-center items-center absolute left-[100%] mx-1;
   }
+
+  .carousel {
+    @apply overflow-hidden w-[1000px] h-full ;
+  }
+  .wrapper {
+    @apply grid h-full w-full  ; 
+    grid-auto-columns: 350px ;
+    grid-auto-flow: column ;
+    animation: slider 7s linear infinite ;
+   
+  }
+
+  .wrapper-comp {
+    @apply w-[300px] h-[350px] rounded-2xl bg-amber-200 ; 
+  }
+
+  .carousel2 {
+    @apply overflow-hidden w-[1000px] h-full md:mt-10  ;
+  }
+  .wrapper2 {
+    @apply grid h-full w-full  ; 
+    grid-auto-columns: 350px ;
+    grid-auto-flow: column ;
+    animation: slider2 7s linear infinite ;
+   
+  }
+
+  .wrapper-comp2 {
+    @apply w-[300px] h-[250px] rounded-2xl ; 
+  }
+
+}
+
+@keyframes slider {
+  to {
+    translate: calc(-4 * 350px);
+  }
+}
+
+@keyframes slider2 {
+  to {
+    translate: calc(-4 * 350px);
+  }
 }
 
 @keyframes scrolling {
@@ -90,6 +133,7 @@ p {
     left: -225% ;
   }
 }
+
 
 @keyframes scrolling2 {
   to {
@@ -171,4 +215,5 @@ animation: blurring 4s ease-out 1;
 button {
   cursor: pointer;
 }
+
 

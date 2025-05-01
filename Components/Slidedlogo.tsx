@@ -1,12 +1,14 @@
 "use client"
 
 
-import { motion } from "motion/react"
-import Image from "next/image"
-import icon from '@/public/Icon.svg'
-
+// import { motion } from "motion/react"
+// import Image from "next/image"
+// import icon from '@/public/Icon.svg'
+// import gsap from "gsap"
+// import { useEffect, useRef } from "react"
 
 const Slidedlogo = () => {
+
   return (
     <>
     
@@ -33,16 +35,110 @@ const Slidedlogo = () => {
     </div>
     */ }
 
-    <motion.div initial={{height: 200}} whileInView={{height: 200}} viewport={{once: true}}
-    transition={{duration: 0.8, delay: 0.2}} className="flex w-full relative overflow-hidden
-     bg-amber-4000 md:mt-20 mb-10 -mt-[40%] ">
+<div className="flex w-full h-full justify-center items-center">
+  <div className="carousel2">
 
-      <h1 className="Scrollitem md:Scrollitems Scrollitems2 md:text-8xl text-6xl text-nowrap text-white ">
-        <Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat<Image src={icon} alt={"start icon "} width={70} height={70} />Fonat
-      </h1>
+    <div className="wrapper2">
+      <div className="flex wrapper-comp2 justify-center items-center  ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp2 justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
 
-      
-    </motion.div>
+
+
+
+{/* }
+
+
+<div className="flex w-full h-full justify-center items-center">
+  <div className="carousel">
+
+    <div className="wrapper">
+      <div className="flex wrapper-comp justify-center items-center  ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+      <div className="flex wrapper-comp justify-center items-center ">
+        <h1 className="text-[120px] font-bold text-center ">
+          Fonat
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+*/ }
+    
 
     </>
   )

@@ -20,7 +20,7 @@ function PurchaseComp ({Title}: PurchaseCompparams){
     <motion.div initial={{translateY: 50}} 
     whileInView={{ translateY: 0}}
     transition={{duration: 0.4}}
-    className="flex justify-center items-center mt-40 mb-15 px-4">
+    className="flex justify-center items-center md:mt-30 mt-15 mb-15 px-4">
       <p className="text-2xl font-light font-sans text-center md:w-1/4 " >
       {Title}
       </p>

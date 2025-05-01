@@ -13,7 +13,7 @@ type MainProductParams = {
 }
 
 
-function MainProduct ({src, Title}: MainProductParams) {
+function MainProduct ({src}: MainProductParams) {
   return (
     <motion.div initial={{translateY: 170, opacity: 50}}
     transition={{duration: 0.8, ease: easeOut}} whileInView={{translateY: 0, opacity: 100}}
